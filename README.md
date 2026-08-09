@@ -6,6 +6,8 @@ Built for The Zerops Challenge (WeMakeDevs × Zerops)
 
 Self-Healing Docs answers reader questions from your real documentation, and quietly detects when the docs themselves are the problem. When the same question keeps getting a weak answer, it drafts a fix and opens a real GitHub pull request or issue for a human to review.
 
+Worker code - https://github.com/chaitralikakde/self-healing-docs-worker
+
 ## The agents
 
 - **Sentinel** (detector): watches every question, spots repeated questions the docs answer poorly, flags a gap.
