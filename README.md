@@ -3,6 +3,7 @@
 Built for The Zerops Challenge (WeMakeDevs × Zerops)
 
 Note - It takes 2-3 mins to make a PR to the github, thanks for your patience
+Ask a single question 3 to 4 times
 
 
 ## What it is
