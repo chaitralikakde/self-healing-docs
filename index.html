@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Self-Healing Docs</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <span class="brand">Self-Healing Docs</span>
+    <nav class="tabs">
+      <button class="tab active" data-tab="docs">Docs</button>
+      <button class="tab" data-tab="chat">Ask</button>
+      <button class="tab" data-tab="dash">Maintainer</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="docs-view" class="view active">
+      <aside class="doc-list" id="doc-list">
+        <p class="muted">Loading docs…</p>
+      </aside>
+      <article class="doc-content" id="doc-content">
+        <p class="muted">Select a page from the list.</p>
+      </article>
+    </section>
+
+    <section id="chat-view" class="view">
+      <div class="chat-log" id="chat-log">
+        <div class="chat-empty muted">Ask anything about the docs above.</div>
+      </div>
+      <form id="chat-form" class="chat-form">
+        <input id="chat-input" type="text" placeholder="How do I…" autocomplete="off" required />
+        <button type="submit">Ask</button>
+      </form>
+    </section>
+
+    <section id="dash-view" class="view dash-view">
+      <div class="dash-top">
+        <aside class="gap-list" id="gap-list">
+          <p class="muted">Loading gaps…</p>
+        </aside>
+        <article class="gap-detail" id="gap-detail">
+          <p class="muted">Select a gap from the list.</p>
+        </article>
+      </div>
+      <div class="activity">
+        <h2>Live activity</h2>
+        <ul class="activity-feed" id="activity-feed">
+          <li class="muted">Loading…</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

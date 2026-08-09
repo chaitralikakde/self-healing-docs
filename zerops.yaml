@@ -1,0 +1,8 @@
+zerops:
+  - setup: frontend
+    build:
+      base: nodejs@22
+      deployFiles:
+        - .
+    run:
+      base: nginx@1.22
