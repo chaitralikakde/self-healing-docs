@@ -3,10 +3,7 @@
 **Built for:** The Zerops Challenge (WeMakeDevs × Zerops)
 **One-liner:** Most AI docs tools help readers find answers. This tells maintainers what's broken in their docs — and fixes it.
 
-Live demo:
-- Reader / Maintainer app: https://frontend-2db1.prg1.zerops.app
-- API: https://apistage-2db1-3000.prg1.zerops.app
-
+FOr demo purpose please ask the same question twice so that count is 2 and then the AI Agent will start writing the draft for that check the maintainer's dashboard
 ---
 
 ## 1. The idea
