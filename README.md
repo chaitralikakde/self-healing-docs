@@ -4,6 +4,8 @@
 **One-liner:** Most AI docs tools help readers find answers. This tells maintainers what's broken in their docs — and fixes it.
 
 FOr demo purpose please ask the same question twice so that count is 2 and then the AI Agent will start writing the draft for that check the maintainer's dashboard
+
+PR will be made to this github repo only for demo purpose
 ---
 
 ## 1. The idea
